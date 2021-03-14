@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?><MindMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SupportsFonts="true"><NameExtension>8244</NameExtension><BaseNode><Text>Computer Architecture</Text><ChildNodes><Node><Text>((2))
+Delete request by priority</Text><ChildNodes><Node><Text>get from user:
+_____________
+
+1) del_priority
+2) arr_priority</Text><ChildNodes /><X>80</X><Y>-180</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node><Node><Text>Usage
+___________
+
+Linear Search on arr_priority
+
+place -1 at the position where 
+del_priority is found
+(arr_indices &amp;&amp; arr_priority)</Text><ChildNodes><Node><Text>Design Choice
+________________
+
+Using -1 instead of actually deleting requests
+because with each delete operation,
+the non-deleted requests must be copied into new arrays
+(letters, indicies, priority)
+that would increase time complexity.
+
+in case of -1, more space would be consumed,
+ because all requests (including the deleted onse)
+are kept stored in the original arrays
+(letters, indicies, priority)</Text><ChildNodes /><X>140</X><Y>-340</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>330</X><Y>-100</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>310</X><Y>-60</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>true</FontIsItalic></Node><Node><Text>((4))
+Process The request</Text><ChildNodes><Node><Text>Usage
+________
+
+Linear search on arr_priority
+fetch all requests with a given priority
+from main_arr_Letters 
+&amp;&amp; 
+their corresponding indices 
+from arr_indices
+</Text><ChildNodes /><X>240</X><Y>230</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>340</X><Y>100</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node><Node><Text>((*))
+Arrays
+_______
+
+arr_integerLetters
+temp_arr_Letters
+main_arr_Letters
+arr_priority
+arr_indices</Text><ChildNodes /><X>-360</X><Y>-410</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node><Node><Text>((*))
+nextEmptyArrIndex</Text><ChildNodes><Node><Text>The next empty spot avaliable
+increased only with each new insert by the user
+
+(Illustration)</Text><ChildNodes /><X>-310</X><Y>180</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>-390</X><Y>-210</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node><Node><Text>((1))
+Insert to the list</Text><ChildNodes><Node><Text>get from user: 
+______________
+
+1) sizeOfRequest
+2) Request 
+3) priority</Text><ChildNodes /><X>-160</X><Y>-300</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node><Node><Text>((3))
+update_indices</Text><ChildNodes><Node><Text>Usage 
+________
+
+iterate over arr_indices
+and uses update_val 
+to update the indices in case requests where deleted
+
+arr_indices[i] = arr_indices[i] + update_val
+
+(Illustration)</Text><ChildNodes /><X>120</X><Y>-190</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>120</X><Y>-150</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>30</X><Y>-180</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node><Node><Text>((5))
+Empty All Lists</Text><ChildNodes><Node><Text>Usage
+_______
+
+Iterates over arr_indices &amp; arr_priority 
+and sets their values to -2
+
+Reset lastUpdatedIndex to its initial value -1</Text><ChildNodes /><X>110</X><Y>230</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>120</X><Y>160</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node><Node><Text>((6))
+Binary Search</Text><ChildNodes><Node><Text>Clean Array</Text><ChildNodes><Node><Text>Usage
+________
+
+Generates three new arrays that has no 
+deleted values "(-1, -2) values"
+
+Copies all the NON deleted requests 
+from the main three arrays...
+main_arr_Letters
+arr_priority
+arr_indices
+
+into three new arrays...
+ letterArr
+arrP
+arrI
+
+itr variable is responsible for getting the cleaned array size</Text><ChildNodes /><X>-440</X><Y>110</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>-360</X><Y>0</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node><Node><Text>Pre Post BinarySearch</Text><ChildNodes><Node><Text>Usage
+_______
+
+Responsible for preparing the arrays 
+before operating the binary search on them
+
+1) calls Clean Array function 
+
+2) Has switch case to catche user's choice
+ whether to call 
+search by letter || search by prority
+
+3) Cast the letters into their equivalent Ascii</Text><ChildNodes><Node><Text>case 2:
+Binary Search by priority
+___________________________
+
+</Text><ChildNodes /><X>250</X><Y>320</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node><Node><Text>case 1:
+Binary Search by letter
+__________________________
+
+1) Sort the values in the to_sort_integers &amp; 
+swap the rest two arrays (indices, priority) according to the letter array
+
+2) Retrieve the index of the requested character inside the sorted array in the result variable
+
+3) </Text><ChildNodes /><X>-310</X><Y>330</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>-130</X><Y>250</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>160</X><Y>130</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node><Node><Text>List Number</Text><ChildNodes><Node><Text>Usage 
+________
+
+Tells in which list the requested 
+"letter || priority"
+was fetched from</Text><ChildNodes /><X>-150</X><Y>160</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>-280</X><Y>220</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>-310</X><Y>140</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>false</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>15</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></Node></ChildNodes><X>0</X><Y>0</Y><ColorNumeric>4280000994</ColorNumeric><WithBackground>true</WithBackground><NSN>0</NSN><BSN>0</BSN><PLSN>0</PLSN><Font>Segoe UI</Font><FontSize>24</FontSize><FontIsBold>false</FontIsBold><FontIsItalic>false</FontIsItalic></BaseNode><TileId>0</TileId></MindMap>
