@@ -9,7 +9,7 @@
 - [Output Format](#output-format)
 - [Use Cases](#use-cases)
 - [License](#license)
-- 
+
 ## Task Description:
 In this task, the goal is to implement a program that manages requests based on their priorities in a system. The system comprises four lists, each with a capacity of 20 elements. Requests are associated with one of four priorities (1-Critical, 2-High, 3-Medium, 4-Low). Upon arrival, a request is stored in the list with available space, starting from the first list.
 
