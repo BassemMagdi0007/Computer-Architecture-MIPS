@@ -105,6 +105,7 @@ To run the MIPS code, follow the steps outlined below:
 - **Execute the Code:** Initiate the program execution by pressing the 'Run' button within the Mars MIPS simulator.
 
 ## Output formate
+![Screenshot1](https://github.com/BassemMagdi0007/Computer-Architecture-MIPS/assets/60258792/a04c2753-7310-45ad-8db7-3551a9793e29)
 
 ## Use Cases
 - Educational Purpose:
