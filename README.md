@@ -1,16 +1,18 @@
 # Computer-Architecture-MIPS
-Task 7
--------
 
-- Write a program to handle requests based on their priorities, the system has four lists with size 20 per list. Each
-request is associated with one of 4 priorities (1-Critical, 2-High, 3-Medium, 4-Low) once request is arrived, it is
-stored on the list that is still has free locations (starting from first list). System gives users ability to <br />
+### Task Description:
+In this task, the goal is to implement a program that manages requests based on their priorities in a system. The system comprises four lists, each with a capacity of 20 elements. Requests are associated with one of four priorities (1-Critical, 2-High, 3-Medium, 4-Low). Upon arrival, a request is stored in the list with available space, starting from the first list.
 
-  1- Search on specific Request use Binary Search on lists, searching criteria can be request data itself or
-priority or both. <br />
-  2- Delete all requests with specific priority.  <br />
-  3- Process all requests with specific priority. <br />
-  4- Empty all lists. <br />
+### Program Features:
+The program provides users with the following functionalities:
+
+- **Search Request:** Utilize Binary Search on the lists to search for a specific request based on criteria such as request data, priority, or both.
+
+- **Delete Requests by Priority:** Remove all requests with a specified priority.
+
+- **Process Requests by Priority:** Process (print) all requests with a specific priority.
+
+- **Empty All Lists:** Clear all lists, removing all stored requests.
 
  **Bonus:** Sort all requests through one list or all lists (Quick Sort).
  Hints: request can be any character a, b ,c ..etc, process request is printing it.
