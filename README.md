@@ -18,7 +18,7 @@ The program provides users with the following functionalities:
  Hints: request can be any character a, b ,c ..etc, process request is printing it.
 
 
-### Execution Instructions
+### Execution Instructions:
 To run the MIPS code, follow the steps outlined below:
 
 - **Java Runtime Environment (JRE):** Ensure that the 'Java Runtime Environment' is installed on your system.
