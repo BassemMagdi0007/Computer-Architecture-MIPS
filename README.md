@@ -16,3 +16,19 @@ The program provides users with the following functionalities:
 
  **Bonus:** Sort all requests through one list or all lists (Quick Sort).
  Hints: request can be any character a, b ,c ..etc, process request is printing it.
+
+
+### Execution Instructions
+To run the MIPS code, follow the steps outlined below:
+
+- **Java Runtime Environment (JRE):** Ensure that the 'Java Runtime Environment' is installed on your system.
+
+- **Mars MIPS Simulator:** Download the 'Mars MIPS simulator' from the official website.
+
+- **Launch Mars MIPS Simulator:** Open the 'Mars.jar' file to start the Mars MIPS simulator.
+
+- **Select Assembly File:** Load the MIPS assembly code file (with the '.asm' extension) within the Mars MIPS simulator.
+
+- **Compile the Code:** Choose 'Run' => 'Assemble' to compile the MIPS assembly code.
+
+- **Execute the Code:** Initiate the program execution by pressing the 'Run' button within the Mars MIPS simulator.
